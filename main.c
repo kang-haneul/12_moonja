@@ -13,9 +13,9 @@ int main(void){
 	fp = fopen("sample.txt","w");
 	for(i=0;i<3;i++)
 	{
-		printf("input a word : ");
-		scanf("%s",input);
-		fprintf(fp,"%s\n",input);
+		
+		fscanf(fp,"%s",input);
+		printf("%s\n",input);
 		
 	}
 	
